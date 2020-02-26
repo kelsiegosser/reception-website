@@ -481,6 +481,10 @@ iframe {
   align-self: center;
 }
 
+.section h3 {
+  margin-top: 3em;
+}
+
 .orange-background,
 .red-background,
 .pink-background,
@@ -490,7 +494,7 @@ iframe {
 .pink-outline,
 .purple-outline {
   border-radius: 4px;
-  box-shadow: 0 0 6px rgba(0, 0, 0, .12), 1px 1px 4px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0 6px rgba(0, 0, 0, .12), 1px 1px 4px rgba(0, 0, 0, 0.9);
   z-index: 1;
 }
 
@@ -612,6 +616,10 @@ img.wedding-party {
   align-items: flex-start;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 .button,
 .button:visited {
   background: #E52065;
@@ -630,8 +638,8 @@ img.wedding-party {
 .button:hover,
 .button:active {
   transition: background 0.5s ease;
-  background: #D11557;
-  color: #fcfdfd;
+  background: #D40D52;
+  color: #eff5f4;
   box-shadow: 0 0 6px rgba(0, 0, 0, .12), 
     1px 1px 4px rgba(0, 0, 0, 0.16), 
     2px 4px 6px rgba(0, 0, 0, 0.20);
@@ -639,15 +647,15 @@ img.wedding-party {
 
 .button.orange,
 .button.orange:visited  {
-  background: #eff5f4;
-  color: #ff8a21;
+  color: #eff5f4;
+  background: #FF8233;
   font-weight: bold;
 }
 
 .button.orange:hover,
 .button.orange:active {
   transition: background 0.5s ease;
-  color: #ec6e00;
+  background: #F06711;
   box-shadow: 0 0 6px rgba(0, 0, 0, .12), 
     1px 1px 4px rgba(0, 0, 0, 0.16), 
     2px 4px 6px rgba(110, 52, 1, 0.20);
@@ -655,15 +663,15 @@ img.wedding-party {
 
 .button.red,
 .button.red:visited {
-  background: #eff5f4;
-  color: #ff493e;
+  color: #eff5f4;
+  background: #ED443B;
   font-weight: bold;
 }
 
 .button.red:hover,
 .button.red:active {
   transition: background 0.5s ease;
-  color: #e6170d;
+  background: #D4372F;
   box-shadow: 0 0 6px rgba(0, 0, 0, .12), 
     1px 1px 4px rgba(0, 0, 0, 0.16), 
     2px 4px 6px rgba(114, 12, 6, 0.2);
@@ -671,15 +679,31 @@ img.wedding-party {
 
 .button.pink,
 .button.pink:visited {
-  background: #eff5f4;
-  color: #ff2171;
+  color: #eff5f4;
+  background: #E52065;
   font-weight: bold;
 }
 
 .button.pink:hover,
 .button.pink:active {
   transition: background 0.5s ease;
-  color: #d8004f;
+  background: #D40D52;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .12), 
+    1px 1px 4px rgba(0, 0, 0, 0.16), 
+    2px 4px 6px rgba(104, 1, 38, 0.2);
+}
+
+.button.purple,
+.button.purple:visited {
+  color: #eff5f4;
+  background: #BA1178;
+  font-weight: bold;
+}
+
+.button.purple:hover,
+.button.purple:active {
+  transition: background 0.5s ease;
+  background: #A80070;
   box-shadow: 0 0 6px rgba(0, 0, 0, .12), 
     1px 1px 4px rgba(0, 0, 0, 0.16), 
     2px 4px 6px rgba(104, 1, 38, 0.2);
