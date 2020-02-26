@@ -26,7 +26,7 @@ body {
 }
 
 header {
-  padding: 1em 0;
+  padding: 0;
   background-image: url('../images/kels_raf_cr_beach.JPG');
   background-size: cover;
   background-position: center;
@@ -34,9 +34,45 @@ header {
   text-align: center;
 }
 
-header p {
-  color: white;
-  flex-grow: 1;
+header .header-background-color {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(38, 34, 36, 0.6) 100%);
+  height: 100%;
+}
+
+header .header-main {
+  font-family: Kristi;
+  font-size: 6em;
+  letter-spacing: 0.0064em;
+  color: #402C34;  
+}
+
+header .header-first {
+  font-family: Unica One;
+  font-size: 2.2em;
+  text-align: center;
+  letter-spacing: 0.128em;
+  text-transform: uppercase;
+  color: #EFF5F4;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header .header-last {
+  font-family: Unica One;
+  font-size: 5em;
+  text-align: center;
+  letter-spacing: 0.128em;
+  text-transform: uppercase;
+  color: #EFF5F4;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header .header-sub {
+  font-family: Kristi;
+  font-size: 7em;
+  text-align: center;
+  letter-spacing: 0.0064em;
+  color: #E0C1CE;
+  opacity: 0.8;
 }
 
 h1 {
@@ -775,13 +811,4 @@ footer p,
   max-width: 120px;
   height: auto;
   object-fit: contain !important;
-}
-
-
-/************/
-/** Form ****/
-/************/
-
-.freebirdFormviewerViewHeaderHeader.exportHeader {
-  background: #211D1E;
 }
