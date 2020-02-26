@@ -1,2 +1,2 @@
-# reception-website
-This is the website for our reception
+# Wedding Website
+Website for Wedding and Reception details
