@@ -432,12 +432,6 @@ iframe {
     padding: 0;
   }
 
-  .heading-garland {
-    max-width: 50%;
-    height: auto !important;
-    object-fit: contain !important;
-  }
-
   .timeline-border {
     min-width: auto;
     width: 100%;
@@ -710,13 +704,6 @@ img.wedding-party {
   max-height: 100px !important;
   max-width: 100px !important;
   object-fit: contain !important;
-}
-
-div img.heading-garland {
-  max-height: 75px;
-  width: auto;
-  padding: 0;
-  z-index: 1;
 }
 
 img.slides {
